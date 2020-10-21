@@ -129,6 +129,7 @@ EMAIL_HOST_PASSWORD='your_password'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS=[
