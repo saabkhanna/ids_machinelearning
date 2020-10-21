@@ -28,7 +28,7 @@ from myapp.views import form
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^index/$',index,name='index'),
+    url(r'',index,name='index'),
     url(r'^dataset/$',dataset,name='dataset'),
     url(r'^visualization/$',visualization,name='visualization'),
     url(r'^prediction/$',prediction,name='prediction'),
